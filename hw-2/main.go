@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"io"
 	"log"
 	"os"
@@ -54,8 +53,4 @@ func UnpackString(s string) string {
 }
 
 func main() {
-	fmt.Println(UnpackString("abc"))
-	fmt.Println(UnpackString("ab2c"))
-	fmt.Println(UnpackString("a2b2c"))
-	fmt.Println(UnpackString("a2b2c2"))
 }
